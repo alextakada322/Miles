@@ -1,0 +1,54 @@
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(240, 238, 238);
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.card {       
+    background: rgba(5, 5, 5, 0.747);
+    color: white;
+    padding: 2em;
+    border-radius: 26px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+h1 {
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 7.5mm;
+    font-family: emoji;
+} 
+  
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    padding: 0.4em;
+    border-radius: 14px;
+}

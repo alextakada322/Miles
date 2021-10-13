@@ -1,0 +1,20 @@
+<div class="form-group">
+    <label for="title">Title</label>
+    <input required value="<%= travel.title %>"
+    type="text" name="title" id="title" class="form-control">
+</div>
+<div class="form-group">
+    <label for="description">Description</label>
+    <textarea name="description" id="description" class="form-control">
+    <%= travel.description %>
+    </textarea>
+</div>
+<div class="form-group">
+    <label for="thingsToDo">Things to Do</label>
+    <textarea required name="thingsToDo" id="thingsToDo" class="form-control">
+    <%= travel.thingsToDo %>
+    </textarea>
+</div>
+</br>
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
