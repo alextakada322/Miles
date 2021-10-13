@@ -18,6 +18,7 @@ Shows data right away with no delay
 - Express.js
 - EJS
 - MongoDb
+- Slugify
 - Unsplash API
 
 ## Acknowledgements
